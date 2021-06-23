@@ -9,6 +9,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Fade from '@material-ui/core/Fade';
 import Zoom from '@material-ui/core/Zoom';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -58,12 +59,12 @@ export default function NavigationBar() {
                         <Grid item xs={3}>
                             <Grid container direction="row" spacing={3} alignItems="center">
                                 <Grid item>
-                                    <Link display="block" variant="body2" color="inherit" href="https://www.linkedin.com/in/danh-nguyen-42a95769/" className={classes.noDecoration}>
+                                    <Link display="block" variant="body2" color="inherit" href="https://www.linkedin.com/in/danh-nguyen-42a95769/" className={classes.noDecoration} target="_blank">
                                         <LinkedInIcon fontSize="large" />
                                     </Link>
                                 </Grid>
                                 <Grid item>
-                                    <Link display="block" variant="body2" color="inherit" href="https://github.com/dnsoftwaredev" className={classes.noDecoration}>
+                                    <Link display="block" variant="body2" color="inherit" href="https://github.com/dnsoftwaredev" className={classes.noDecoration} target="_blank">
                                         <GitHubIcon />
                                     </Link>
                                 </Grid>
@@ -97,41 +98,35 @@ export default function NavigationBar() {
 
             <Zoom in timeout={1000}>
                 <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
-                    <Link
+                    <Button
                         component={RouterLink}
                         to="/who"
                         color="inherit"
-                        noWrap
-                        key="0"
-                        variant="body2"
+                        size="small"
                         className={classes.toolbarLink}
                     >
                         Who Am I?
-                    </Link>
+                    </Button>
 
-                    <Link
+                    <Button
                         component={RouterLink}
-                        to="/WorkExperience"
+                        to="/workexperience"
                         color="inherit"
-                        noWrap
-                        key="0"
-                        variant="body2"
+                        size="small"
                         className={classes.toolbarLink}
                     >
                         Work Experience
-                    </Link>
+                    </Button>
 
-                    <Link
+                    <Button
                         component={RouterLink}
-                        to="/Projects"
+                        to="/projects"
                         color="inherit"
-                        noWrap
-                        key="0"
-                        variant="body2"
+                        size="small"
                         className={classes.toolbarLink}
                     >
                         My Projects
-                    </Link>
+                    </Button>
 
                 </Toolbar>
             </Zoom>
