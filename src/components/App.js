@@ -19,7 +19,7 @@ class App extends React.Component {
                         <div>
                             <NavigationBar />
                             <Switch>
-                                <Route path="/portfolio" exact component={Landing} />
+                                <Route path="/" exact component={Landing} />
                                 <Route path="/who" exact component={Landing} />
                                 <Route path="/projects" exact component={Projects} />
                                 <Route path="/workexperience" exact component={WorkExperience} />
