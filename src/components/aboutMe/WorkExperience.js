@@ -41,10 +41,10 @@ const WorkExperience = (props) => {
                                         DBA Danh Nguyen
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Designed and maintained responsive websites for clients using HTML, JavaScript, React, Redux and other technologies
+                                        - Design and maintain responsive websites for clients using HTML, JavaScript, ReactJS and other technologies
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Arranged seamless integration with various databases includes but is not limited to MySQL, PostgreSQL...
+                                        - Seamless integration with various databases included but not limited to MySQL, PostgreSQL…
                                     </Typography>
                                 </CardContent>
                             </div>
@@ -76,10 +76,10 @@ const WorkExperience = (props) => {
                                         Anushree Chatterjee Lab
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Worked as a team to create database that linked various conditions to their phenotypic traits of E.Coli
+                                        - Designed and implemented a database that linked various conditions to effects on gene expression of E. Coli
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Developed initial research, designed the database, and maintained the database for the group
+                                        - Developed initial research, designed the database, and maintained the database for the group.
                                     </Typography>
                                 </CardContent>
                             </div>
@@ -109,10 +109,10 @@ const WorkExperience = (props) => {
                                         - Investing in residential and commercial properties in Colorado and Texas
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Focus on repositioning distressed residential and commercial properties for maximum return
+                                        - Repositioning distressed residential and commercial properties
                                     </Typography>
                                     <Typography variant="subtitle1" >
-                                        - Involved in all aspects of real estate investing from acquisition, loan processing, loan servicing, to general managing of various residential properties and a Wyndham hotel in vacation area
+                                        - Involving in all aspects of real estate investing from acquisition, loan processing, loan servicing, to general managing of various residential properties and a Wyndham hotel in AAA area
                                     </Typography>
                                 </CardContent>
                             </div>
