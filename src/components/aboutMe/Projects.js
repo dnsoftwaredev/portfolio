@@ -60,7 +60,7 @@ const Projects = () => {
     return (
         <Fade in timeout={1500}>
             <Grid container spacing={4} className={classes.projects}>
-                <Grid item xs={12} sm={6} className={classes.project} >
+                <Grid item xs={12} sm={4} className={classes.project} >
                     <Card className={classes.card}>
                         <CardMedia
                             className={classes.cardMedia}
@@ -79,14 +79,21 @@ const Projects = () => {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button component={Link} size="small" color="primary" href="https://boredcom.herokuapp.com/" color="inherit" target="_blank">
-                                Check it out
-                            </Button>
+                            <Grid container justify="flex-start">
+                                <Button component={Link} size="small" href="https://boredcom.herokuapp.com/" color="inherit" target="_blank">
+                                    Check it out
+                                </Button>
+                            </Grid>
+                            <Grid container justify="flex-end">
+                                <Button component={Link} size="small" href="https://github.com/dnsoftwaredev/Bored.com/tree/master" color="inherit" target="_blank">
+                                    Git repository
+                                </Button>
+                            </Grid>
                         </CardActions>
                     </Card>
                 </Grid>
 
-                <Grid item xs={12} sm={6} className={classes.project}>
+                <Grid item xs={12} sm={4} className={classes.project}>
                     <Card className={classes.card}>
                         <CardMedia
                             className={classes.cardMedia}
@@ -105,9 +112,49 @@ const Projects = () => {
                             </Typography>
                         </CardContent>
                         <CardActions >
-                            <Button component={Link} size="small" color="primary" href="https://realestatedm.herokuapp.com/properties" color="inherit" target="_blank">
-                                Check it out
-                            </Button>
+                            <Grid container justify="flex-start">
+                                <Button component={Link} size="small" href="https://realestatedm.herokuapp.com/properties" color="inherit" target="_blank">
+                                    Check it out
+                                </Button>
+                            </Grid>
+                            <Grid container justify="flex-end">
+                                <Button component={Link} size="small" href="https://github.com/dnsoftwaredev/REDM" color="inherit" target="_blank">
+                                    Git repository
+                                </Button>
+                            </Grid>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                <Grid item xs={12} sm={4} className={classes.project}>
+                    <Card className={classes.card}>
+                        <CardMedia
+                            className={classes.cardMedia}
+                            image="https://images.unsplash.com/photo-1559067096-49ebca3406aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+                            title="redm image"
+                        />
+                        <CardContent className={classes.cardContent}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Investment Shop
+                            </Typography>
+                            <Typography>
+                                A full-stack high-performance eCommerce website that let users shop for investments
+                            </Typography>
+                            <Typography variant="subtitle1">
+                                MongoDB Atlas - ReactJS - Express - NodeJS
+                            </Typography>
+                        </CardContent>
+                        <CardActions >
+                            <Grid container justify="flex-start">
+                                <Button component={Link} size="small" href="https://investmentshop.herokuapp.com/" color="inherit" target="_blank">
+                                    Check it out
+                                </Button>
+                            </Grid>
+                            <Grid container justify="flex-end">
+                                <Button component={Link} size="small" href="https://github.com/dnsoftwaredev/investmentshop" color="inherit" target="_blank">
+                                    Git repository
+                                </Button>
+                            </Grid>
                         </CardActions>
                     </Card>
                 </Grid>

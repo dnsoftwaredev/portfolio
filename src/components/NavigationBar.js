@@ -59,7 +59,7 @@ export default function NavigationBar() {
                         <Grid item xs={3}>
                             <Grid container direction="row" spacing={3} alignItems="center">
                                 <Grid item>
-                                    <Link display="block" variant="body2" color="inherit" href="https://www.linkedin.com/in/danh-nguyen-42a95769/" className={classes.noDecoration} target="_blank">
+                                    <Link display="block" variant="body2" color="inherit" href="https://www.linkedin.com/in/danh-nguyen-sf/" className={classes.noDecoration} target="_blank">
                                         <LinkedInIcon fontSize="large" />
                                     </Link>
                                 </Grid>

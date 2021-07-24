@@ -67,11 +67,10 @@ const Landing = (props) => {
                                 Danh Nguyen
                             </Typography>
                             <Typography component="h2" variant="h5" color="inherit" className={classes.mainContentLineTitle}>
-                                Entrepreneur -
                                 Software Engineer
                             </Typography>
                             <Typography component="h3" variant="caption" color="inherit" className={classes.mainContentLineLanguages} >
-                                Python - Java - JS - NodeJS - React - Redux
+                                Python - Java - JS - NodeJS - React/Redux - MongoDB
                             </Typography>
                         </Grid>
                     </Grid>

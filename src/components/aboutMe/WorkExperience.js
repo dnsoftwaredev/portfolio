@@ -70,7 +70,7 @@ const WorkExperience = (props) => {
                             <div className={classes.cardDetails}>
                                 <CardContent>
                                     <Typography component="h2" variant="h4">
-                                        Data Science Researcher
+                                        Researcher
                                     </Typography>
                                     <Typography variant="subtitle2" color="textSecondary">
                                         Anushree Chatterjee Lab
